@@ -65,6 +65,7 @@ header {
 .header-content {
     flex: 1;
     padding: 20px;
+    text-align: center;
 }
 
 .header-content h1 {
@@ -87,6 +88,7 @@ header {
 .buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -101,7 +103,7 @@ header {
     margin-right: 20px;
 }
 
-.buttons .resume-button {
+.header-content .resume-button {
     background-color: #4087f1;
     color: white;
     height: 50px;
